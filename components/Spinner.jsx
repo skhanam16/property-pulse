@@ -1,9 +1,8 @@
-'use client';
-import { useState } from 'react';
+// import { useState } from 'react';
 import ClipLoader from 'react-spinners/ClipLoader';
 
-const Loading = () => {
-    const {loading, setLoading} = useState(false);
+const Spinner = ({loading}) => {
+    // const {loading, setLoading} = useState(false);
     const override = {
       display: 'block',
       margin: 'auto',
@@ -15,5 +14,4 @@ const Loading = () => {
     </div>
   )
 }
-
-export default Loading;
+export default Spinner;
