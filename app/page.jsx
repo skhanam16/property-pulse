@@ -9,9 +9,9 @@ const HomePage = () => {
   // console.log(process.env.MONGODB_URI);
   return (
     <>
-     <Hero />
-     <InfoBoxes />
-     <HomeProperties />
+      <Hero />
+      <InfoBoxes />
+      <HomeProperties />
     </>
   
   )

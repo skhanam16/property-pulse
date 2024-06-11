@@ -103,8 +103,9 @@ else(
   };
 
   return (
-    mounted && !loading && (
-
+    <>
+   
+    mounted && (
       <form
         action='/api/properties'
         method='POST'
@@ -588,6 +589,7 @@ else(
       </form>
   ) 
   // mounted
+  </>
     )
 
 };

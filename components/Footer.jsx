@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 import logo from '@/assets/images/logo.png';
 
 const Footer = () => {

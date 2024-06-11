@@ -17,6 +17,7 @@ const Navbar = () => {
     // const [ isLoggedIn, setsLoggedIn ] = useState(false);
     const [ providers, setProviders] = useState(false);
     const pathname = usePathname();
+    // console.log(pathname);
     // when page load bring in useeffect
     useEffect(()=>{
     const setAuthProviders = async () =>{
@@ -29,11 +30,10 @@ const Navbar = () => {
     }, [] );
 
     //  console.log(profileImage);
-
     // console.log(session);
     // console.log(providers);
     // this will render a list objects of google providers
-    // console.log(pathname);
+  
 
   return (
     <nav className="bg-blue-700 border-b border-blue-500">
